@@ -1,18 +1,20 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Hello</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/Style.css"/>
+    <link rel="stylesheet" href="/css/Style.css"/>
 </head>
 <body>
+
 <form action="hello-form" method="post" class="form-example">
     <div class="form-example">
-        <label for="fname">Enter your name: </label>
+        <label for="fname">Enter your fname: </label>
         <input type="text" name="fname" id="fname" required>
     </div>
     <div class="form-example">
-        <label for="lname">Enter your surname: </label>
+        <label for="lname">Enter your lname: </label>
         <input type="text" name="lname" id="lname" required>
     </div>
     <div class="form-example">

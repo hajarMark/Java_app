@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Hello-custom</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/custom.css"/>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/WEB-INF/css/custom.css"/>
 </head>
 <p>
 <p>${message}</p>
